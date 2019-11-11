@@ -9,12 +9,10 @@ let arr = new Array();
 
 for (let i = firstPositive ; i <= secondPositive; i++){
     if(util.isPrime(i)){
-        
-        arr.push(i);
-        
+        arr.push(i); 
     }
 }
-util.printArrayItems(arr);
+    util.printArrayItems(arr);
      
 
 
